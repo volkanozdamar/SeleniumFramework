@@ -1,0 +1,21 @@
+[ {
+  "uid" : "fd0d885acb13b6db",
+  "name" : "Chrome Test",
+  "time" : {
+    "start" : 1548345437521,
+    "stop" : 1548345440358,
+    "duration" : 2837
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7697d7c7ed9b700a",
+  "name" : "Firefox Test",
+  "time" : {
+    "start" : 1548345440445,
+    "stop" : 1548345443018,
+    "duration" : 2573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

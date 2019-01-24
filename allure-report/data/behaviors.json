@@ -1,0 +1,29 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Chrome Test",
+    "uid" : "fd0d885acb13b6db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548345437521,
+      "stop" : 1548345440358,
+      "duration" : 2837
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Firefox Test",
+    "uid" : "7697d7c7ed9b700a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1548345440445,
+      "stop" : 1548345443018,
+      "duration" : 2573
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
+}

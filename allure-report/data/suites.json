@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My suite",
+    "children" : [ {
+      "name" : "All",
+      "children" : [ {
+        "name" : "FirstTest",
+        "children" : [ {
+          "name" : "Chrome Test",
+          "uid" : "fd0d885acb13b6db",
+          "parentUid" : "24331d9e647c4442523328a2ed768544",
+          "status" : "passed",
+          "time" : {
+            "start" : 1548345437521,
+            "stop" : 1548345440358,
+            "duration" : 2837
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24331d9e647c4442523328a2ed768544"
+      }, {
+        "name" : "SecondTest",
+        "children" : [ {
+          "name" : "Firefox Test",
+          "uid" : "7697d7c7ed9b700a",
+          "parentUid" : "f4e2835fef2bd76f4730b265927ee1da",
+          "status" : "passed",
+          "time" : {
+            "start" : 1548345440445,
+            "stop" : 1548345443018,
+            "duration" : 2573
+          },
+          "flaky" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f4e2835fef2bd76f4730b265927ee1da"
+      } ],
+      "uid" : "686bb7b844f13f423f174e7d795caf98"
+    } ],
+    "uid" : "df8a2354ac6730c96524f67e8fe3568b"
+  } ]
+}

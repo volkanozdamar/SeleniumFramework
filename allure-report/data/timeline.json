@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "TRSEUISTMAC045.local",
+    "children" : [ {
+      "name" : "1758@TRSEUISTMAC045.local.main(1)",
+      "children" : [ {
+        "name" : "Chrome Test",
+        "uid" : "fd0d885acb13b6db",
+        "parentUid" : "f671bdba9baa3d2c89e32303fd0dba75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1548345437521,
+          "stop" : 1548345440358,
+          "duration" : 2837
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Firefox Test",
+        "uid" : "7697d7c7ed9b700a",
+        "parentUid" : "f671bdba9baa3d2c89e32303fd0dba75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1548345440445,
+          "stop" : 1548345443018,
+          "duration" : 2573
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f671bdba9baa3d2c89e32303fd0dba75"
+    } ],
+    "uid" : "a0f14d2e7eeed5a87a79cee643c8ef95"
+  } ]
+}

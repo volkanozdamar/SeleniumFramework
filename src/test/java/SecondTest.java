@@ -1,8 +1,5 @@
-import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -14,26 +11,23 @@ import org.tinylog.Logger;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-
-public class FirstTest  {
+public class SecondTest {
     //WebDriver driver;
     RemoteWebDriver driver;
-    Capabilities chromeCapabilities;
+    Capabilities firefoxCapabilities;
     @BeforeTest
     public void Before_Test(){
         Logger.info("Test Started : ");
         try {
-            chromeCapabilities = DesiredCapabilities.chrome();
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
+            firefoxCapabilities = DesiredCapabilities.firefox();
+            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxCapabilities);
         } catch(MalformedURLException e) {
             System.out.println("The url is not well formed: " );
         }
-        //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/resources/mac/chromedriver");
-        //driver = new ChromeDriver();
         driver.get( "https://the-internet.herokuapp.com/" ) ;
         Logger.info("Browser Launched");
     }
-    @Test(description = "Chrome Test")
+    @Test(description = "Firefox Test")
     public void Deneme(){
         driver.findElement(By.linkText("Form Authentication")).click();
         driver.findElement(By.id("username")).sendKeys("tomsmith");
@@ -48,7 +42,6 @@ public class FirstTest  {
 
     @AfterTest
     public void After_Test(){
-        driver.close();
         driver.quit();
         Logger.info("Browser Closed");
     }

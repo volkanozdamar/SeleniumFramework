@@ -1,0 +1,37 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "FirstTest",
+    "children" : [ {
+      "name" : "Deneme",
+      "uid" : "fd0d885acb13b6db",
+      "parentUid" : "c81efc8ee700dc2b970d02fde998a566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548345437521,
+        "stop" : 1548345440358,
+        "duration" : 2837
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "c81efc8ee700dc2b970d02fde998a566"
+  }, {
+    "name" : "SecondTest",
+    "children" : [ {
+      "name" : "Deneme",
+      "uid" : "7697d7c7ed9b700a",
+      "parentUid" : "8c9866853d29d32a2c72f19a2b6ca8da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548345440445,
+        "stop" : 1548345443018,
+        "duration" : 2573
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "8c9866853d29d32a2c72f19a2b6ca8da"
+  } ]
+}
