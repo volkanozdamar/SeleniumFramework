@@ -26,3 +26,16 @@ SecondTest - INFO: Button Clicked - 09:14:43.406
 SecondTest - INFO: Assertion Done! - 09:14:43.450
 FirstTest - INFO: Browser Closed - 09:14:43.676
 SecondTest - INFO: Browser Closed - 09:14:44.188
+FirstTest - INFO: Test Started :  - 09:27:10.437
+FirstTest - INFO: Browser Launched - 09:27:17.885
+SecondTest - INFO: Test Started :  - 09:27:17.887
+SecondTest - INFO: Browser Launched - 09:27:25.188
+FirstTest - INFO: Link is Clicked - 09:27:26.736
+FirstTest - INFO: USERNAME - 09:27:26.859
+FirstTest - INFO: Password - 09:27:27.028
+FirstTest - INFO: Assertion Done - 09:27:27.683
+SecondTest - INFO: username entered - 09:27:28.625
+SecondTest - INFO: Password entered - 09:27:28.671
+SecondTest - INFO: Button Clicked - 09:27:29.661
+FirstTest - INFO: Browser Closed - 09:27:29.927
+SecondTest - INFO: Browser Closed - 09:27:30.582
