@@ -1,8 +1,7 @@
-import io.qameta.allure.Description;
+import io.qameta.allure.Link;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
@@ -16,34 +15,36 @@ import java.net.URL;
 
 
 public class FirstTest  {
-    //WebDriver driver;
     RemoteWebDriver driver;
     Capabilities chromeCapabilities;
-    @BeforeTest
+    @Link("https://example.org")
+    @BeforeTest(description = "Before Chrome Test")
     public void Before_Test(){
         Logger.info("Test Started : ");
         try {
             chromeCapabilities = DesiredCapabilities.chrome();
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
         } catch(MalformedURLException e) {
+            Logger.trace(e);
             System.out.println("The url is not well formed: " );
         }
-        //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/src/resources/mac/chromedriver");
-        //driver = new ChromeDriver();
         driver.get( "https://the-internet.herokuapp.com/" ) ;
         Logger.info("Browser Launched");
     }
+    @Step("Type username password")
     @Test(description = "Chrome Test")
     public void Deneme(){
-        driver.findElement(By.linkText("Form Authentication")).click();
-        driver.findElement(By.id("username")).sendKeys("tomsmith");
-        Logger.info("username entered");
-        driver.findElement(By.id("password")).sendKeys("SuperSecretPassword!");
-        Logger.info("Password entered");
-        driver.findElement(By.className("fa-sign-in")).click();
-        Logger.info("Button Clicked");
-        Assert.assertEquals("You logged into a secure area!\n"+"×",driver.findElement(By.id("flash")).getText().trim());
-        Logger.info("Assertion Done!");
+        MainPage mainPage = new MainPage(driver);
+        FormAuthentication formAuthentication = new FormAuthentication(driver);
+        mainPage.ClickToFormAuthentication();
+        Logger.info("Link is Clicked");
+        formAuthentication.FillUserNameTextBox("tomsmith");
+        Logger.info("USERNAME");
+        formAuthentication.FillPasswordTextBox("SuperSecretPassword!");
+        Logger.info("Password");
+        formAuthentication.SignInButton();
+        Assert.assertEquals("You logged into a secure area!\n"+"×",formAuthentication.LoginMessage());
+        Logger.info("Assertion Done");
     }
 
     @AfterTest

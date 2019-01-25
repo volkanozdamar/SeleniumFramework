@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Jan 24 18:57:17 EET 2019","Thu Jan 24 18:57:20 EET 2019","2837","My suite","All","FirstTest","FirstTest","Deneme","Chrome Test",""
-"passed","Thu Jan 24 18:57:20 EET 2019","Thu Jan 24 18:57:23 EET 2019","2573","My suite","All","SecondTest","SecondTest","Deneme","Firefox Test",""
+"passed","Thu Jan 24 23:55:03 EET 2019","Thu Jan 24 23:55:04 EET 2019","1547","My suite","All","SecondTest","SecondTest","Deneme","Firefox Test",""
+"passed","Thu Jan 24 23:55:00 EET 2019","Thu Jan 24 23:55:03 EET 2019","2564","My suite","All","FirstTest","FirstTest","Deneme","Chrome Test",""

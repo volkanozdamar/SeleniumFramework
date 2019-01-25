@@ -1,0 +1,117 @@
+{
+  "uid" : "f4da992d613b8b3d",
+  "name" : "Firefox Test",
+  "fullName" : "SecondTest.Deneme",
+  "historyId" : "14f28090fe6b90d89644ddc3244c2842",
+  "time" : {
+    "start" : 1548360219608,
+    "stop" : 1548360221641,
+    "duration" : 2033
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Before Chrome Test",
+    "time" : {
+      "start" : 1548360207402,
+      "stop" : 1548360212261,
+      "duration" : 4859
+    },
+    "description" : "Before Chrome Test",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Before_Test",
+    "time" : {
+      "start" : 1548360212261,
+      "stop" : 1548360217794,
+      "duration" : 5533
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548360221655,
+      "stop" : 1548360221801,
+      "duration" : 146
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548360221802,
+      "stop" : 1548360222408,
+      "duration" : 606
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "SecondTest"
+  }, {
+    "name" : "testClass",
+    "value" : "SecondTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deneme"
+  }, {
+    "name" : "parentSuite",
+    "value" : "My suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "SecondTest"
+  }, {
+    "name" : "host",
+    "value" : "TRSEUISTMAC045.local"
+  }, {
+    "name" : "thread",
+    "value" : "1060@TRSEUISTMAC045.local.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f4da992d613b8b3d.json",
+  "parameterValues" : [ ]
+}

@@ -9,15 +9,15 @@
         "name" : "FirstTest",
         "children" : [ {
           "name" : "Chrome Test",
-          "uid" : "fd0d885acb13b6db",
+          "uid" : "3b948b8344d67c21",
           "parentUid" : "24331d9e647c4442523328a2ed768544",
           "status" : "passed",
           "time" : {
-            "start" : 1548345437521,
-            "stop" : 1548345440358,
-            "duration" : 2837
+            "start" : 1548363300701,
+            "stop" : 1548363303265,
+            "duration" : 2564
           },
-          "flaky" : false,
+          "flaky" : true,
           "parameters" : [ ]
         } ],
         "uid" : "24331d9e647c4442523328a2ed768544"
@@ -25,13 +25,13 @@
         "name" : "SecondTest",
         "children" : [ {
           "name" : "Firefox Test",
-          "uid" : "7697d7c7ed9b700a",
+          "uid" : "7cb098e7c34fe717",
           "parentUid" : "f4e2835fef2bd76f4730b265927ee1da",
           "status" : "passed",
           "time" : {
-            "start" : 1548345440445,
-            "stop" : 1548345443018,
-            "duration" : 2573
+            "start" : 1548363303337,
+            "stop" : 1548363304884,
+            "duration" : 1547
           },
           "flaky" : false,
           "parameters" : [ ]

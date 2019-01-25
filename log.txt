@@ -1,40 +1,14 @@
-FirstTest - INFO: Test Started :  - 18:51:48.017
-FirstTest - INFO: Browser Launched - 18:51:52.265
-SecondTest - INFO: Test Started :  - 18:51:52.268
-SecondTest - INFO: Browser Launched - 18:51:59.684
-FirstTest - INFO: username entered - 18:52:01.510
-FirstTest - INFO: Password entered - 18:52:01.723
-FirstTest - INFO: Button Clicked - 18:52:02.454
-FirstTest - INFO: Assertion Done! - 18:52:02.519
-SecondTest - INFO: username entered - 18:52:03.571
-SecondTest - INFO: Password entered - 18:52:03.631
-SecondTest - INFO: Button Clicked - 18:52:04.199
-SecondTest - INFO: Assertion Done! - 18:52:04.252
-FirstTest - INFO: Browser Closed - 18:52:04.597
-FirstTest - INFO: Test Started :  - 18:54:35.331
-FirstTest - INFO: Browser Launched - 18:54:40.709
-SecondTest - INFO: Test Started :  - 18:54:40.712
-SecondTest - INFO: Browser Launched - 18:54:46.782
-FirstTest - INFO: username entered - 18:54:48.023
-FirstTest - INFO: Password entered - 18:54:48.178
-FirstTest - INFO: Button Clicked - 18:54:48.703
-FirstTest - INFO: Assertion Done! - 18:54:48.768
-SecondTest - INFO: username entered - 18:54:49.799
-SecondTest - INFO: Password entered - 18:54:49.851
-SecondTest - INFO: Button Clicked - 18:54:50.438
-SecondTest - INFO: Assertion Done! - 18:54:50.480
-FirstTest - INFO: Browser Closed - 18:54:50.656
-FirstTest - INFO: Test Started :  - 18:57:04.276
-FirstTest - INFO: Browser Launched - 18:57:10.890
-SecondTest - INFO: Test Started :  - 18:57:10.893
-SecondTest - INFO: Browser Launched - 18:57:17.466
-FirstTest - INFO: username entered - 18:57:19.545
-FirstTest - INFO: Password entered - 18:57:19.713
-FirstTest - INFO: Button Clicked - 18:57:20.295
-FirstTest - INFO: Assertion Done! - 18:57:20.355
-SecondTest - INFO: username entered - 18:57:22.331
-SecondTest - INFO: Password entered - 18:57:22.398
-SecondTest - INFO: Button Clicked - 18:57:22.978
-SecondTest - INFO: Assertion Done! - 18:57:23.018
-FirstTest - INFO: Browser Closed - 18:57:23.187
-SecondTest - INFO: Browser Closed - 18:57:23.746
+FirstTest - INFO: Test Started :  - 08:50:28.696
+FirstTest - INFO: Browser Launched - 08:50:34.122
+SecondTest - INFO: Test Started :  - 08:50:34.124
+SecondTest - INFO: Browser Launched - 08:50:41.590
+FirstTest - INFO: Link is Clicked - 08:50:42.830
+FirstTest - INFO: USERNAME - 08:50:42.950
+FirstTest - INFO: Password - 08:50:43.119
+FirstTest - INFO: Assertion Done - 08:50:43.766
+SecondTest - INFO: username entered - 08:50:45.596
+SecondTest - INFO: Password entered - 08:50:45.664
+SecondTest - INFO: Button Clicked - 08:50:46.306
+SecondTest - INFO: Assertion Done! - 08:50:46.348
+FirstTest - INFO: Browser Closed - 08:50:46.526
+SecondTest - INFO: Browser Closed - 08:50:47.187

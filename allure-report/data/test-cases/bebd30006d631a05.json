@@ -1,0 +1,119 @@
+{
+  "uid" : "bebd30006d631a05",
+  "name" : "Chrome Test",
+  "fullName" : "FirstTest.Deneme",
+  "historyId" : "235fd59c5b14f77d8fe9f522d270ba0",
+  "time" : {
+    "start" : 1548345286980,
+    "stop" : 1548345288771,
+    "duration" : 1791
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Before_Test",
+    "time" : {
+      "start" : 1548345275286,
+      "stop" : 1548345280711,
+      "duration" : 5425
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Before_Test",
+    "time" : {
+      "start" : 1548345280711,
+      "stop" : 1548345286782,
+      "duration" : 6071
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548345290495,
+      "stop" : 1548345290656,
+      "duration" : 161
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548345290656,
+      "stop" : 1548345291197,
+      "duration" : 541
+    },
+    "description" : "",
+    "status" : "broken",
+    "statusMessage" : "Tried to run command without establishing a connection\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'TRSEUISTMAC045.local', ip: 'fe80:0:0:0:44b:3a42:924f:2a58%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 79, moz:profile: /tmp/rust_mozprofile.7z8duo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.125-linuxkit, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 23f69514-1a35-49e8-b5d0-391...}\nSession ID: 23f69514-1a35-49e8-b5d0-3913d86037a0",
+    "statusTrace" : "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'TRSEUISTMAC045.local', ip: 'fe80:0:0:0:44b:3a42:924f:2a58%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.1'\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 79, moz:profile: /tmp/rust_mozprofile.7z8duo..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.9.125-linuxkit, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, webdriver.remote.sessionid: 23f69514-1a35-49e8-b5d0-391...}\nSession ID: 23f69514-1a35-49e8-b5d0-3913d86037a0\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:448)\n\tat SecondTest.After_Test(SecondTest.java:46)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)\n\tat org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)\n\tat org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)\n\tat org.testng.TestRunner.afterRun(TestRunner.java:725)\n\tat org.testng.TestRunner.run(TestRunner.java:509)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)\n\tat org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deneme"
+  }, {
+    "name" : "parentSuite",
+    "value" : "My suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "FirstTest"
+  }, {
+    "name" : "host",
+    "value" : "TRSEUISTMAC045.local"
+  }, {
+    "name" : "thread",
+    "value" : "1745@TRSEUISTMAC045.local.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bebd30006d631a05.json",
+  "parameterValues" : [ ]
+}

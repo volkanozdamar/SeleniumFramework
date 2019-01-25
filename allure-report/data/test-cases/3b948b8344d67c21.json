@@ -1,0 +1,225 @@
+{
+  "uid" : "3b948b8344d67c21",
+  "name" : "Chrome Test",
+  "fullName" : "FirstTest.Deneme",
+  "historyId" : "235fd59c5b14f77d8fe9f522d270ba0",
+  "time" : {
+    "start" : 1548363300701,
+    "stop" : 1548363303265,
+    "duration" : 2564
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "Before Chrome Test",
+    "time" : {
+      "start" : 1548363290382,
+      "stop" : 1548363294123,
+      "duration" : 3741
+    },
+    "description" : "Before Chrome Test",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Before_Test",
+    "time" : {
+      "start" : 1548363294124,
+      "stop" : 1548363300521,
+      "duration" : 6397
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548363304903,
+      "stop" : 1548363305042,
+      "duration" : 139
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548363305042,
+      "stop" : 1548363305555,
+      "duration" : 513
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deneme"
+  }, {
+    "name" : "parentSuite",
+    "value" : "My suite"
+  }, {
+    "name" : "suite",
+    "value" : "All"
+  }, {
+    "name" : "subSuite",
+    "value" : "FirstTest"
+  }, {
+    "name" : "host",
+    "value" : "TRSEUISTMAC045.local"
+  }, {
+    "name" : "thread",
+    "value" : "1247@TRSEUISTMAC045.local.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6437a4cd5b9537f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548362536052,
+        "stop" : 1548362537815,
+        "duration" : 1763
+      }
+    }, {
+      "uid" : "99746be7a0c562fa",
+      "status" : "failed",
+      "statusDetails" : "expected [You logged into a secure area!\n×] but found [You logged into a secure area\n×]",
+      "time" : {
+        "start" : 1548361199100,
+        "stop" : 1548361201323,
+        "duration" : 2223
+      }
+    }, {
+      "uid" : "26c97f42194003de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548361177237,
+        "stop" : 1548361179674,
+        "duration" : 2437
+      }
+    }, {
+      "uid" : "b9bac54883c95336",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548360720996,
+        "stop" : 1548360722191,
+        "duration" : 1195
+      }
+    }, {
+      "uid" : "c462a014ffc8050c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548360217852,
+        "stop" : 1548360219534,
+        "duration" : 1682
+      }
+    }, {
+      "uid" : "f275cf03425606f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548359437574,
+        "stop" : 1548359440420,
+        "duration" : 2846
+      }
+    }, {
+      "uid" : "e5040bd17fd83aae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548359202323,
+        "stop" : 1548359205503,
+        "duration" : 3180
+      }
+    }, {
+      "uid" : "da88e6b6aa4a9935",
+      "status" : "skipped",
+      "statusDetails" : "Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'TRSEUISTMAC045.local', ip: 'fe80:0:0:0:cb1:241b:7528:f90%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.1'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1548359122845,
+        "stop" : 1548359122849,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "618c57eb9d35d41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548351340497,
+        "stop" : 1548351342101,
+        "duration" : 1604
+      }
+    }, {
+      "uid" : "ba6299bac49392af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548347087678,
+        "stop" : 1548347090128,
+        "duration" : 2450
+      }
+    }, {
+      "uid" : "b53e79bf3a0cc09c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548345437521,
+        "stop" : 1548345440358,
+        "duration" : 2837
+      }
+    }, {
+      "uid" : "bebd30006d631a05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548345286980,
+        "stop" : 1548345288771,
+        "duration" : 1791
+      }
+    }, {
+      "uid" : "1977884fa923ecf6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1548345119742,
+        "stop" : 1548345122522,
+        "duration" : 2780
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b948b8344d67c21.json",
+  "parameterValues" : [ ]
+}
