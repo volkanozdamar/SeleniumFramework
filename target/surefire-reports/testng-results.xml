@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-01-25T05:50:28Z" name="Command line suite" finished-at="2019-01-25T05:50:47Z" duration-ms="18512">
+  <suite started-at="2019-01-25T06:14:23Z" name="Command line suite" finished-at="2019-01-25T06:14:44Z" duration-ms="21051">
     <groups>
     </groups>
-    <test started-at="2019-01-25T05:50:28Z" name="Command line test" finished-at="2019-01-25T05:50:47Z" duration-ms="18512">
+    <test started-at="2019-01-25T06:14:23Z" name="Command line test" finished-at="2019-01-25T06:14:44Z" duration-ms="21051">
       <class name="SecondTest">
-        <test-method signature="Deneme()[pri:0, instance:SecondTest@17f9d882]" started-at="2019-01-25T05:50:43Z" name="Deneme" description="Firefox Test" finished-at="2019-01-25T05:50:46Z" duration-ms="2471" status="PASS">
+        <test-method signature="Deneme()[pri:0, instance:SecondTest@17f9d882]" started-at="2019-01-25T06:14:41Z" name="Deneme" description="Firefox Test" finished-at="2019-01-25T06:14:43Z" duration-ms="1838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Deneme -->
       </class> <!-- SecondTest -->
       <class name="FirstTest">
-        <test-method is-config="true" signature="Before_Test()[pri:0, instance:FirstTest@1c5920df]" started-at="2019-01-25T05:50:28Z" name="Before_Test" description="Before Chrome Test" finished-at="2019-01-25T05:50:34Z" duration-ms="5442" status="PASS">
+        <test-method is-config="true" signature="Before_Test()[pri:0, instance:FirstTest@1c5920df]" started-at="2019-01-25T06:14:23Z" name="Before_Test" description="Before Chrome Test" finished-at="2019-01-25T06:14:31Z" duration-ms="8195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method is-config="true" signature="Before_Test()[pri:0, instance:SecondTest@17f9d882]" started-at="2019-01-25T05:50:34Z" name="Before_Test" finished-at="2019-01-25T05:50:41Z" duration-ms="7466" status="PASS">
+        <test-method is-config="true" signature="Before_Test()[pri:0, instance:SecondTest@17f9d882]" started-at="2019-01-25T06:14:31Z" name="Before_Test" finished-at="2019-01-25T06:14:39Z" duration-ms="7767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Before_Test -->
-        <test-method signature="Deneme()[pri:0, instance:FirstTest@1c5920df]" started-at="2019-01-25T05:50:41Z" name="Deneme" description="Chrome Test" finished-at="2019-01-25T05:50:43Z" duration-ms="2167" status="PASS">
+        <test-method signature="Deneme()[pri:0, instance:FirstTest@1c5920df]" started-at="2019-01-25T06:14:39Z" name="Deneme" description="Chrome Test" finished-at="2019-01-25T06:14:41Z" duration-ms="2432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Deneme -->
-        <test-method is-config="true" signature="After_Test()[pri:0, instance:FirstTest@1c5920df]" started-at="2019-01-25T05:50:46Z" name="After_Test" finished-at="2019-01-25T05:50:46Z" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="After_Test()[pri:0, instance:FirstTest@1c5920df]" started-at="2019-01-25T06:14:43Z" name="After_Test" finished-at="2019-01-25T06:14:43Z" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After_Test -->
-        <test-method is-config="true" signature="After_Test()[pri:0, instance:SecondTest@17f9d882]" started-at="2019-01-25T05:50:46Z" name="After_Test" finished-at="2019-01-25T05:50:47Z" duration-ms="661" status="PASS">
+        <test-method is-config="true" signature="After_Test()[pri:0, instance:SecondTest@17f9d882]" started-at="2019-01-25T06:14:43Z" name="After_Test" finished-at="2019-01-25T06:14:44Z" duration-ms="511" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- After_Test -->
