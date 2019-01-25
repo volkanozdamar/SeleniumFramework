@@ -13,7 +13,7 @@ variables:
   imageName: 'your-container-image-name:$(build.buildId)'
 
 steps:
-- script: docker-compose up -d && docker-compose -scale chrome=5 &&  docker-compose -scale firefox=5
+- script: docker-compose up -d && docker-compose scale chrome=5 &&  docker-compose scale firefox=5
   displayName: 'docker build'
 
 # Maven
