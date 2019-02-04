@@ -1,17 +1,18 @@
-
-PropertiesFile - INFO: Default browser is :chrome - 14:28:10.015
-FirstTest - INFO: Test Started with : chrome browser - 14:28:10.017
-PropertiesFile - INFO: Default url is :https://the-internet.herokuapp.com/ - 14:28:11.171
-FirstTest - INFO: Browser Launched - 14:28:15.527
-SecondTest - INFO: Test Started :  - 14:28:15.529
-SecondTest - INFO: Browser Launched - 14:28:21.471
-FirstTest - INFO: Link is Clicked - 14:28:23.527
-FirstTest - INFO: USERNAME - 14:28:23.677
-FirstTest - INFO: Password - 14:28:23.938
-FirstTest - INFO: Assertion Done - 14:28:25.310
-SecondTest - INFO: username entered - 14:28:26.975
-SecondTest - INFO: Password entered - 14:28:27.047
-SecondTest - INFO: Button Clicked - 14:28:28.705
-SecondTest - INFO: Assertion Done! - 14:28:28.750
-FirstTest - INFO: Browser Closed - 14:28:28.901
-SecondTest - INFO: Browser Closed - 14:28:29.543
+PropertiesFile - INFO: Default browser is :chrome - 16:15:50.280
+FirstTest - INFO: Test Started with : chrome browser - 16:15:50.283
+PropertiesFile - INFO: Default url is :https://the-internet.herokuapp.com/ - 16:15:51.527
+FirstTest - INFO: Browser Launched - 16:15:55.478
+SecondTest - INFO: Test Started :  - 16:15:55.481
+SecondTest - INFO: Browser Launched - 16:16:01.161
+FirstTest - INFO: Link is Clicked - 16:16:02.060
+ExcelReader - INFO: Value for Sheet1(1,0) is :tomsmith - 16:16:02.458
+FirstTest - INFO: USERNAME - 16:16:02.592
+ExcelReader - INFO: Value for Sheet1(1,1) is :SuperSecretPassword! - 16:16:02.621
+FirstTest - INFO: Password - 16:16:02.858
+FirstTest - INFO: Assertion Done - 16:16:03.782
+SecondTest - INFO: username entered - 16:16:04.685
+SecondTest - INFO: Password entered - 16:16:04.743
+SecondTest - INFO: Button Clicked - 16:16:05.392
+SecondTest - INFO: Assertion Done! - 16:16:05.431
+FirstTest - INFO: Browser Closed - 16:16:05.584
+SecondTest - INFO: Browser Closed - 16:16:06.104

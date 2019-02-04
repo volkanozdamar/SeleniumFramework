@@ -26,7 +26,8 @@ public class PropertiesFile {
             input.close();
         }
         catch (Exception e){
-            Logger.error(e);
+            Logger.error("Messege : "+e.getMessage());
+            Logger.error("Cause : "+e.getCause());
         }
         return propvalue;
 
@@ -42,7 +43,8 @@ public class PropertiesFile {
             outputStream.close();
         }
         catch (Exception e){
-            Logger.error(e);
+            Logger.error("Messege : "+e.getMessage());
+            Logger.error("Cause : "+e.getCause());
         }
     }
 }

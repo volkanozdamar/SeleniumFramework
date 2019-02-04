@@ -40,9 +40,9 @@ public class FirstTest  {
         FormAuthentication formAuthentication = new FormAuthentication(driver);
         mainPage.ClickToFormAuthentication();
         Logger.info("Link is Clicked");
-        formAuthentication.FillUserNameTextBox("tomsmith");
+        formAuthentication.FillUserNameTextBox(ExcelReader.getRowData("Sheet1",1,0));
         Logger.info("USERNAME");
-        formAuthentication.FillPasswordTextBox("SuperSecretPassword!");
+        formAuthentication.FillPasswordTextBox(ExcelReader.getRowData("Sheet1",1,1));
         Logger.info("Password");
         formAuthentication.SignInButton();
         Assert.assertEquals("You logged into a secure area!\n"+"×",formAuthentication.LoginMessage());
