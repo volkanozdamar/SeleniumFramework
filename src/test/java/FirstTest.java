@@ -20,13 +20,16 @@ public class FirstTest  {
     @Link("https://example.org")
     @BeforeTest(description = "Before Chrome Test")
     public void Before_Test(){
-        Logger.info("Test Started : ");
+        String browserProp = PropertiesFile.getProperties();
+        Logger.info("Test Started with : "+browserProp+" browser");
+        if (browserProp.equalsIgnoreCase("chrome")){
         try {
             chromeCapabilities = DesiredCapabilities.chrome();
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
         } catch(MalformedURLException e) {
             Logger.trace(e);
-            System.out.println("The url is not well formed: " );
+            Logger.error("Error"+e);
+        }
         }
         driver.get( "https://the-internet.herokuapp.com/" ) ;
         Logger.info("Browser Launched");

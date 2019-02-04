@@ -4,7 +4,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class FormAuthentication {
-    private WebDriver driver;
+    WebDriver driver;
     //Constructor
     public FormAuthentication(WebDriver driver){
         //Initialise Elements

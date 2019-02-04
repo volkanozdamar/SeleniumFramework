@@ -1,41 +1,16 @@
-FirstTest - INFO: Test Started :  - 08:50:28.696
-FirstTest - INFO: Browser Launched - 08:50:34.122
-SecondTest - INFO: Test Started :  - 08:50:34.124
-SecondTest - INFO: Browser Launched - 08:50:41.590
-FirstTest - INFO: Link is Clicked - 08:50:42.830
-FirstTest - INFO: USERNAME - 08:50:42.950
-FirstTest - INFO: Password - 08:50:43.119
-FirstTest - INFO: Assertion Done - 08:50:43.766
-SecondTest - INFO: username entered - 08:50:45.596
-SecondTest - INFO: Password entered - 08:50:45.664
-SecondTest - INFO: Button Clicked - 08:50:46.306
-SecondTest - INFO: Assertion Done! - 08:50:46.348
-FirstTest - INFO: Browser Closed - 08:50:46.526
-SecondTest - INFO: Browser Closed - 08:50:47.187
-FirstTest - INFO: Test Started :  - 09:14:23.156
-FirstTest - INFO: Browser Launched - 09:14:31.335
-SecondTest - INFO: Test Started :  - 09:14:31.337
-SecondTest - INFO: Browser Launched - 09:14:39.103
-FirstTest - INFO: Link is Clicked - 09:14:40.453
-FirstTest - INFO: USERNAME - 09:14:40.603
-FirstTest - INFO: Password - 09:14:40.791
-FirstTest - INFO: Assertion Done - 09:14:41.544
-SecondTest - INFO: username entered - 09:14:42.454
-SecondTest - INFO: Password entered - 09:14:42.509
-SecondTest - INFO: Button Clicked - 09:14:43.406
-SecondTest - INFO: Assertion Done! - 09:14:43.450
-FirstTest - INFO: Browser Closed - 09:14:43.676
-SecondTest - INFO: Browser Closed - 09:14:44.188
-FirstTest - INFO: Test Started :  - 09:27:10.437
-FirstTest - INFO: Browser Launched - 09:27:17.885
-SecondTest - INFO: Test Started :  - 09:27:17.887
-SecondTest - INFO: Browser Launched - 09:27:25.188
-FirstTest - INFO: Link is Clicked - 09:27:26.736
-FirstTest - INFO: USERNAME - 09:27:26.859
-FirstTest - INFO: Password - 09:27:27.028
-FirstTest - INFO: Assertion Done - 09:27:27.683
-SecondTest - INFO: username entered - 09:27:28.625
-SecondTest - INFO: Password entered - 09:27:28.671
-SecondTest - INFO: Button Clicked - 09:27:29.661
-FirstTest - INFO: Browser Closed - 09:27:29.927
-SecondTest - INFO: Browser Closed - 09:27:30.582
+PropertiesFile - INFO: Default browser is :chrome - 13:15:09.185
+FirstTest - INFO: Test Started with : chrome browser - 13:15:09.187
+FirstTest - INFO: Browser Launched - 13:15:20.746
+FirstTest - INFO: Link is Clicked - 13:15:21.610
+FirstTest - INFO: USERNAME - 13:15:21.745
+FirstTest - INFO: Password - 13:15:21.969
+FirstTest - INFO: Assertion Done - 13:15:22.828
+FirstTest - INFO: Browser Closed - 13:15:23.085
+PropertiesFile - INFO: Default browser is :chrome - 13:17:09.649
+FirstTest - INFO: Test Started with : chrome browser - 13:17:09.652
+FirstTest - INFO: Browser Launched - 13:17:25.126
+FirstTest - INFO: Link is Clicked - 13:17:26.068
+FirstTest - INFO: USERNAME - 13:17:26.197
+FirstTest - INFO: Password - 13:17:26.417
+FirstTest - INFO: Assertion Done - 13:17:29.979
+FirstTest - INFO: Browser Closed - 13:17:30.149

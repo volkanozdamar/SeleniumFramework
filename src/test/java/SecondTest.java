@@ -12,7 +12,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class SecondTest {
-    //WebDriver driver;
     RemoteWebDriver driver;
     Capabilities firefoxCapabilities;
     @BeforeTest
@@ -22,7 +21,7 @@ public class SecondTest {
             firefoxCapabilities = DesiredCapabilities.firefox();
             driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxCapabilities);
         } catch(MalformedURLException e) {
-            System.out.println("The url is not well formed: " );
+            Logger.error("Error"+e);
         }
         driver.get( "https://the-internet.herokuapp.com/" ) ;
         Logger.info("Browser Launched");

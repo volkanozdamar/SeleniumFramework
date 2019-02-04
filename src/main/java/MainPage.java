@@ -4,8 +4,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class MainPage {
-    private WebDriver driver;
-    //Constructor
+    WebDriver driver;
     public MainPage(WebDriver driver){
         //Initialise Elements
         PageFactory.initElements(driver, this);
@@ -17,4 +16,5 @@ public class MainPage {
         mClickToFormAuthentication.click();
         //hetrocuydo@ezehe.com
     }
+
 }
