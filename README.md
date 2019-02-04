@@ -14,3 +14,5 @@ Homemaded SeleniumFramework Just for FUN!
 -Maven https://maven.apache.org/
 
 -TinyLog2 https://tinylog.org/v2/
+
+-Apache POI https://poi.apache.org/
