@@ -1,4 +1,4 @@
-Homemaded SeleniumFramework Just for FUN!
+Homemaded SeleniumFramework Just for FUN! [![Build Status](https://dev.azure.com/ozdamarvolkan/TestRepo/_apis/build/status/volkanozdamar.SeleniumFramework?branchName=master)](https://dev.azure.com/ozdamarvolkan/TestRepo/_build/latest?definitionId=32&branchName=master)
 
 
 -Azure Pipelines for Azure DevOps https://azure.microsoft.com/tr-tr/services/devops/pipelines/
