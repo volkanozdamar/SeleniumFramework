@@ -1,0 +1,117 @@
+{
+  "uid" : "76f5a1a0d3718b05",
+  "name" : "Chrome Test",
+  "fullName" : "FirstTest.Deneme",
+  "historyId" : "235fd59c5b14f77d8fe9f522d270ba0",
+  "time" : {
+    "start" : 1548396879289,
+    "stop" : 1548396881546,
+    "duration" : 2257
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Before Chrome Test",
+    "time" : {
+      "start" : 1548396863150,
+      "stop" : 1548396871336,
+      "duration" : 8186
+    },
+    "description" : "Before Chrome Test",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Before_Test",
+    "time" : {
+      "start" : 1548396871337,
+      "stop" : 1548396879104,
+      "duration" : 7767
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548396883507,
+      "stop" : 1548396883677,
+      "duration" : 170
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1548396883677,
+      "stop" : 1548396884188,
+      "duration" : 511
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deneme"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Command line suite"
+  }, {
+    "name" : "suite",
+    "value" : "Command line test"
+  }, {
+    "name" : "subSuite",
+    "value" : "FirstTest"
+  }, {
+    "name" : "host",
+    "value" : "TRSEUISTMAC045.local"
+  }, {
+    "name" : "thread",
+    "value" : "7240@TRSEUISTMAC045.local.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76f5a1a0d3718b05.json",
+  "parameterValues" : [ ]
+}

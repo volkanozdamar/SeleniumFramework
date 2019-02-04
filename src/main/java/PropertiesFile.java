@@ -7,37 +7,42 @@ import java.io.OutputStream;
 import java.util.Properties;
 
 public class PropertiesFile {
+    private PropertiesFile() {
+        throw new IllegalStateException("PropertiesFile");
+    }
+    public static void main(String[] args) {
+
+    }
     static Properties prop = new Properties();
     static String propertiesPath = System.getProperty("user.dir")+"/src/main/resources/config.properties";
     static String browser;
-    public static void main(String[] args) {
-        getProperties();
-        setProperties("chrome");
-    }
-    public static String getProperties(){
-        try{
+    static String propvalue;
+    public static String getProperties(String val){
+        try {
             InputStream input = new FileInputStream(propertiesPath);
             prop.load(input);
-            browser = prop.getProperty("browser");
-            Logger.info("Default browser is :"+browser);
+            propvalue = prop.getProperty(val);
+            Logger.info("Default "+val+" is :"+propvalue);
+            input.close();
         }
         catch (Exception e){
             Logger.error(e);
         }
-        return browser;
+        return propvalue;
+
+
     }
-    public static void setProperties(String val){
+    public static void setProperties(String propVal,String val){
         try {
             OutputStream outputStream = new FileOutputStream(propertiesPath);
-            prop.setProperty("browser",val);
+            prop.setProperty(propVal,val);
             prop.store(outputStream,null);
-            browser = prop.getProperty("browser");
-            Logger.info("Browser is setted as  :"+browser);
+            propvalue = prop.getProperty(propVal);
+            Logger.info("Browser is setted as  :"+propvalue);
+            outputStream.close();
         }
         catch (Exception e){
             Logger.error(e);
         }
-
-
     }
 }

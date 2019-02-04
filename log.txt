@@ -1,16 +1,17 @@
-PropertiesFile - INFO: Default browser is :chrome - 13:15:09.185
-FirstTest - INFO: Test Started with : chrome browser - 13:15:09.187
-FirstTest - INFO: Browser Launched - 13:15:20.746
-FirstTest - INFO: Link is Clicked - 13:15:21.610
-FirstTest - INFO: USERNAME - 13:15:21.745
-FirstTest - INFO: Password - 13:15:21.969
-FirstTest - INFO: Assertion Done - 13:15:22.828
-FirstTest - INFO: Browser Closed - 13:15:23.085
-PropertiesFile - INFO: Default browser is :chrome - 13:17:09.649
-FirstTest - INFO: Test Started with : chrome browser - 13:17:09.652
-FirstTest - INFO: Browser Launched - 13:17:25.126
-FirstTest - INFO: Link is Clicked - 13:17:26.068
-FirstTest - INFO: USERNAME - 13:17:26.197
-FirstTest - INFO: Password - 13:17:26.417
-FirstTest - INFO: Assertion Done - 13:17:29.979
-FirstTest - INFO: Browser Closed - 13:17:30.149
+
+PropertiesFile - INFO: Default browser is :chrome - 14:28:10.015
+FirstTest - INFO: Test Started with : chrome browser - 14:28:10.017
+PropertiesFile - INFO: Default url is :https://the-internet.herokuapp.com/ - 14:28:11.171
+FirstTest - INFO: Browser Launched - 14:28:15.527
+SecondTest - INFO: Test Started :  - 14:28:15.529
+SecondTest - INFO: Browser Launched - 14:28:21.471
+FirstTest - INFO: Link is Clicked - 14:28:23.527
+FirstTest - INFO: USERNAME - 14:28:23.677
+FirstTest - INFO: Password - 14:28:23.938
+FirstTest - INFO: Assertion Done - 14:28:25.310
+SecondTest - INFO: username entered - 14:28:26.975
+SecondTest - INFO: Password entered - 14:28:27.047
+SecondTest - INFO: Button Clicked - 14:28:28.705
+SecondTest - INFO: Assertion Done! - 14:28:28.750
+FirstTest - INFO: Browser Closed - 14:28:28.901
+SecondTest - INFO: Browser Closed - 14:28:29.543

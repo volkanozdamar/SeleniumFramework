@@ -1,20 +1,20 @@
 [ {
-  "uid" : "3b948b8344d67c21",
+  "uid" : "1778346e1cbe8c5b",
   "name" : "Chrome Test",
   "time" : {
-    "start" : 1548363300701,
-    "stop" : 1548363303265,
-    "duration" : 2564
+    "start" : 1549277474631,
+    "stop" : 1549277476514,
+    "duration" : 1883
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7cb098e7c34fe717",
+  "uid" : "47efea2ed2583882",
   "name" : "Firefox Test",
   "time" : {
-    "start" : 1548363303337,
-    "stop" : 1548363304884,
-    "duration" : 1547
+    "start" : 1549277476635,
+    "stop" : 1549277478668,
+    "duration" : 2033
   },
   "status" : "passed",
   "severity" : "normal"

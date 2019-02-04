@@ -9,7 +9,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.tinylog.Logger;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -20,7 +19,7 @@ public class FirstTest  {
     @Link("https://example.org")
     @BeforeTest(description = "Before Chrome Test")
     public void Before_Test(){
-        String browserProp = PropertiesFile.getProperties();
+        String browserProp = PropertiesFile.getProperties("browser");
         Logger.info("Test Started with : "+browserProp+" browser");
         if (browserProp.equalsIgnoreCase("chrome")){
         try {
@@ -31,7 +30,7 @@ public class FirstTest  {
             Logger.error("Error"+e);
         }
         }
-        driver.get( "https://the-internet.herokuapp.com/" ) ;
+        driver.get(PropertiesFile.getProperties("url")) ;
         Logger.info("Browser Launched");
     }
     @Step("Type username password")

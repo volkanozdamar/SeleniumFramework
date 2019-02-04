@@ -1,0 +1,85 @@
+{
+  "uid" : "778448360e45d871",
+  "name" : "Chrome Test",
+  "fullName" : "FirstTest.Deneme",
+  "historyId" : "235fd59c5b14f77d8fe9f522d270ba0",
+  "time" : {
+    "start" : 1549276811798,
+    "stop" : 1549276813700,
+    "duration" : 1902
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "Before Chrome Test",
+    "time" : {
+      "start" : 1549276806756,
+      "stop" : 1549276811741,
+      "duration" : 4985
+    },
+    "description" : "Before Chrome Test",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "After_Test",
+    "time" : {
+      "start" : 1549276813772,
+      "stop" : 1549276813903,
+      "duration" : 131
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testClass",
+    "value" : "FirstTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "Deneme"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "SeleniumFramework"
+  }, {
+    "name" : "subSuite",
+    "value" : "FirstTest"
+  }, {
+    "name" : "host",
+    "value" : "TRSEUISTMAC045.local"
+  }, {
+    "name" : "thread",
+    "value" : "6001@TRSEUISTMAC045.local.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "778448360e45d871.json",
+  "parameterValues" : [ ]
+}
