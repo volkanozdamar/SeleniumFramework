@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Feb 04 13:51:16 EET 2019","Mon Feb 04 13:51:18 EET 2019","2033","My suite","All","SecondTest","SecondTest","Deneme","Firefox Test",""
-"passed","Mon Feb 04 13:51:14 EET 2019","Mon Feb 04 13:51:16 EET 2019","1883","My suite","All","FirstTest","FirstTest","Deneme","Chrome Test",""
