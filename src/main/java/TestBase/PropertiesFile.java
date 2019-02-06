@@ -1,3 +1,5 @@
+package TestBase;
+
 import org.tinylog.Logger;
 
 import java.io.FileInputStream;
@@ -8,7 +10,7 @@ import java.util.Properties;
 
 public class PropertiesFile {
     private PropertiesFile() {
-        throw new IllegalStateException("PropertiesFile");
+        throw new IllegalStateException("TestBase.PropertiesFile");
     }
     public static void main(String[] args) {
 

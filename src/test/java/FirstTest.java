@@ -1,41 +1,29 @@
+import ExcelReader.ExcelReader;
+import Scripts.FormAuthentication;
+import Scripts.MainPage;
+import TestBase.TestBase;
 import io.qameta.allure.Link;
 import io.qameta.allure.Step;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.tinylog.Logger;
-import java.net.MalformedURLException;
-import java.net.URL;
 
 
-public class FirstTest  {
+public class FirstTest extends TestBase {
     RemoteWebDriver driver;
     Capabilities chromeCapabilities;
     @Link("https://example.org")
     @BeforeTest(description = "Before Chrome Test")
     public void Before_Test(){
-        String browserProp = PropertiesFile.getProperties("browser");
-        Logger.info("Test Started with : "+browserProp+" browser");
-        if (browserProp.equalsIgnoreCase("chrome")){
-        try {
-            chromeCapabilities = DesiredCapabilities.chrome();
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
-        } catch(MalformedURLException e) {
-            Logger.trace(e);
-            Logger.error("Error"+e);
-        }
-        }
-        driver.get(PropertiesFile.getProperties("url")) ;
-        Logger.info("Browser Launched");
+        driver = dockerBrowser();
     }
     @Step("Type username password")
     @Test(description = "Chrome Test")
-    public void Deneme(){
+    public void FirstTest(){
         MainPage mainPage = new MainPage(driver);
         FormAuthentication formAuthentication = new FormAuthentication(driver);
         mainPage.ClickToFormAuthentication();
@@ -51,7 +39,7 @@ public class FirstTest  {
 
     @AfterTest
     public void After_Test(){
-        driver.close();
+        Logger.info("Test Close");
         driver.quit();
         Logger.info("Browser Closed");
     }

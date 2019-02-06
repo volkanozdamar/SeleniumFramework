@@ -1,3 +1,4 @@
+import TestBase.TestBase;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -11,20 +12,12 @@ import org.tinylog.Logger;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class SecondTest {
+public class SecondTest extends TestBase{
     RemoteWebDriver driver;
     Capabilities firefoxCapabilities;
     @BeforeTest
     public void Before_Test(){
-        Logger.info("Test Started : ");
-        try {
-            firefoxCapabilities = DesiredCapabilities.firefox();
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxCapabilities);
-        } catch(MalformedURLException e) {
-            Logger.error("Error"+e);
-        }
-        driver.get( "https://the-internet.herokuapp.com/" ) ;
-        Logger.info("Browser Launched");
+        driver = dockerBrowser();
     }
     @Test(description = "Firefox Test")
     public void Deneme(){
@@ -41,6 +34,7 @@ public class SecondTest {
 
     @AfterTest
     public void After_Test(){
+        Logger.info("Test Close");
         driver.quit();
         Logger.info("Browser Closed");
     }
