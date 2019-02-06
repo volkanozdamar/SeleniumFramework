@@ -1,4 +1,5 @@
 import ExcelReader.ExcelReader;
+import Screenshot.TakeScreenshot;
 import Scripts.FormAuthentication;
 import Scripts.MainPage;
 import TestBase.TestBase;
@@ -11,6 +12,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.tinylog.Logger;
+
 
 
 public class FirstTest extends TestBase {
@@ -28,11 +30,13 @@ public class FirstTest extends TestBase {
         FormAuthentication formAuthentication = new FormAuthentication(driver);
         mainPage.ClickToFormAuthentication();
         Logger.info("Link is Clicked");
+        TakeScreenshot.fullpageScreenshot(driver);
         formAuthentication.FillUserNameTextBox(ExcelReader.getRowData("Sheet1",1,0));
         Logger.info("USERNAME");
         formAuthentication.FillPasswordTextBox(ExcelReader.getRowData("Sheet1",1,1));
         Logger.info("Password");
         formAuthentication.SignInButton();
+        TakeScreenshot.fullpageScreenshot(driver);
         Assert.assertEquals("You logged into a secure area!\n"+"×",formAuthentication.LoginMessage());
         Logger.info("Assertion Done");
     }
