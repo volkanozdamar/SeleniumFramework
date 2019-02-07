@@ -18,3 +18,5 @@ Homemaded SeleniumFramework Just for FUN!
 -TinyLog2 https://tinylog.org/v2/
 
 -Apache POI https://poi.apache.org/
+
+-AShot https://github.com/pazone/ashot

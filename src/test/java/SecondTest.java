@@ -1,7 +1,7 @@
-import TestBase.TestBase;
+import excelreader.ExcelReader;
+import testbase.TestBase;
+import com.google.common.annotations.VisibleForTesting;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -9,18 +9,15 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.tinylog.Logger;
 
-import java.net.MalformedURLException;
-import java.net.URL;
-
 public class SecondTest extends TestBase{
-    RemoteWebDriver driver;
-    Capabilities firefoxCapabilities;
+    @VisibleForTesting
+    private RemoteWebDriver driver;
     @BeforeTest
-    public void Before_Test(){
+    public void beforeTest(){
         driver = dockerBrowser();
     }
     @Test(description = "Firefox Test")
-    public void Deneme(){
+    public void myTest(){
         driver.findElement(By.linkText("Form Authentication")).click();
         driver.findElement(By.id("username")).sendKeys("tomsmith");
         Logger.info("username entered");
@@ -33,7 +30,7 @@ public class SecondTest extends TestBase{
     }
 
     @AfterTest
-    public void After_Test(){
+    public void afterTest(){
         Logger.info("Test Close");
         driver.quit();
         Logger.info("Browser Closed");
