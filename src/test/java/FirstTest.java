@@ -1,7 +1,7 @@
 import excelreader.ExcelReader;
 import screenshot.TakeScreenshot;
-import scripts.FormAuthentication;
-import scripts.MainPage;
+import object_repository.FormAuthentication;
+import object_repository.MainPage;
 import testbase.TestBase;
 import com.google.common.annotations.VisibleForTesting;
 import io.qameta.allure.Step;
@@ -11,7 +11,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.tinylog.Logger;
-
 
 
 public class FirstTest extends TestBase {
